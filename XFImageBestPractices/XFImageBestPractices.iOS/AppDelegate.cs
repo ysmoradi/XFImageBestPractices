@@ -12,7 +12,7 @@ namespace XFImageBestPractices.iOS
         {
             Xamarin.Forms.Forms.Init();
 
-            CachedImageRenderer.InitImageSourceHandler();
+            CachedImageRenderer.InitImageSourceHandler(); // #BP To configure ff image loading
 
             LoadApplication(new App());
 

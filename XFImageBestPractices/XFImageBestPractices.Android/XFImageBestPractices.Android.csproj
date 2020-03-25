@@ -58,9 +58,11 @@
     <PackageReference Include="glidex.forms">
       <Version>2.0.1.394</Version>
     </PackageReference>
+    <!-- #BP you've to install glidex.forms -->
     <PackageReference Include="Resizetizer.NT">
       <Version>0.1.0-preview8</Version>
     </PackageReference>
+    <!-- #BP you've to install Resizetizer.NT -->
     <PackageReference Include="Xamarin.Forms" Version="4.5.0.396" />
   </ItemGroup>
   <ItemGroup>

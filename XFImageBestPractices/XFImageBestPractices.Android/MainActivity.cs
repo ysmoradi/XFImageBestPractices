@@ -17,7 +17,7 @@ namespace XFImageBestPractices.Droid
 
             Xamarin.Forms.Forms.Init(this, savedInstanceState);
 
-            Android.Glide.Forms.Init(this);
+            Android.Glide.Forms.Init(this); // #BP To configure glidex.forms
 
             LoadApplication(new App());
         }
