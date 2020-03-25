@@ -1,6 +1,6 @@
 **Xamarin forms image best practices**
 
-Search for #BP to find every config that made this project work!
+Search for [BP](https://github.com/ysmoradi/XFImageBestPractices/search?q=BP) to find every config that made this project work!
 
 This sample is using followings:
 
