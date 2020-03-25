@@ -7,16 +7,24 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <StackLayout>
+    <StackLayout x:Name="Images" Spacing="5">
         <Image
             HeightRequest="123"
             Source="loginbg.png"
             WidthRequest="105" />
-            <!-- #BP Do not use Images/logingbg.png -->
+
+        <!--  #BP Do not use Images/logingbg.png  -->
+
         <Image
             HeightRequest="427"
             Source="sample.png"
             WidthRequest="329" />
+
+        <Image
+            HeightRequest="100"
+            Source="https://cdn5.vectorstock.com/i/1000x1000/75/54/google-logo-vector-28387554.jpg"
+            WidthRequest="100" />
+
     </StackLayout>
 
 </ContentPage>
