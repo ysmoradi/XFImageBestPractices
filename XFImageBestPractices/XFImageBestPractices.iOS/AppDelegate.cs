@@ -1,5 +1,4 @@
-﻿using FFImageLoading.Forms.Platform;
-using Foundation;
+﻿using Foundation;
 using UIKit;
 using Xamarin.Forms.Platform.iOS;
 
@@ -12,7 +11,7 @@ namespace XFImageBestPractices.iOS
         {
             Xamarin.Forms.Forms.Init();
 
-            CachedImageRenderer.InitImageSourceHandler(); // #BP To configure ff image loading
+            Xamarin.Forms.Nuke.FormsHandler.Init(debug: false); // #BP To configure nuke
 
             LoadApplication(new App());
 

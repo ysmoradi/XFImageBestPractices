@@ -8,4 +8,4 @@ This sample is using followings:
 
 [glidex](https://github.com/jonathanpeppers/glidex)
 
-[FFImageLoading](https://github.com/luberda-molinet/FFImageLoading)
+[Xamarin.Forms.Nuke](https://github.com/roubachof/Xamarin.Forms.Nuke)

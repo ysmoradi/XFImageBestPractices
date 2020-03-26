@@ -129,11 +129,11 @@
       <Version>0.1.0-preview8</Version>
     </PackageReference>
     <!-- #BP you've to install Resizetizer.NT -->
-    <PackageReference Include="Xamarin.FFImageLoading.Forms">
-      <Version>2.4.11.982</Version>
-    </PackageReference>
-    <!-- #BP you've to install ffimageloading -->
     <PackageReference Include="Xamarin.Forms" Version="4.5.0.396" />
+    <!-- #BP you've to install xf nuke -->
+    <PackageReference Include="Xamarin.Forms.Nuke">
+      <Version>8.4.0</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
