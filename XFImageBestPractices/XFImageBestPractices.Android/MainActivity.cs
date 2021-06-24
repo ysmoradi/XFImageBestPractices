@@ -1,7 +1,10 @@
 ﻿using Android.App;
 using Android.Content.PM;
 using Android.OS;
+using Xamarin.Forms.Internals;
 using Xamarin.Forms.Platform.Android;
+
+[assembly: Preserve]
 
 namespace XFImageBestPractices.Droid
 {
@@ -10,9 +13,6 @@ namespace XFImageBestPractices.Droid
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
-            TabLayoutResource = Resource.Layout.Tabbar;
-            ToolbarResource = Resource.Layout.Toolbar;
-
             base.OnCreate(savedInstanceState);
 
             Xamarin.Forms.Forms.Init(this, savedInstanceState);

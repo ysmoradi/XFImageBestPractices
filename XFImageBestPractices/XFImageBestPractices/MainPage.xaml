@@ -7,7 +7,8 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <StackLayout x:Name="Images" Spacing="5">
+    <StackLayout Spacing="5">
+
         <Image
             HeightRequest="123"
             Source="loginbg.png"

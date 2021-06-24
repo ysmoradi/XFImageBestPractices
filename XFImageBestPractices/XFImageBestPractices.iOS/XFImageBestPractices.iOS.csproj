@@ -63,6 +63,8 @@
     <MtouchArch>ARM64</MtouchArch>
     <CodesignKey>iPhone Developer</CodesignKey>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <OptimizePNGs>true</OptimizePNGs>
+    <MtouchLink>Full</MtouchLink>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
@@ -126,13 +128,13 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Resizetizer.NT">
-      <Version>0.1.0-preview8</Version>
+      <Version>0.2.0</Version>
     </PackageReference>
     <!-- #BP you've to install Resizetizer.NT -->
-    <PackageReference Include="Xamarin.Forms" Version="4.5.0.396" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
     <!-- #BP you've to install xf nuke -->
     <PackageReference Include="Xamarin.Forms.Nuke">
-      <Version>8.4.0</Version>
+      <Version>8.4.3</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

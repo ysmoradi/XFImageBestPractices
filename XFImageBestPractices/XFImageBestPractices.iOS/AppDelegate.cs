@@ -2,6 +2,8 @@
 using UIKit;
 using Xamarin.Forms.Platform.iOS;
 
+[assembly: Preserve]
+
 namespace XFImageBestPractices.iOS
 {
     [Register(nameof(AppDelegate))]

@@ -11,7 +11,7 @@
     <AssemblyName>XFImageBestPractices.UWP</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion>10.0.16299.0</TargetPlatformVersion>
+    <TargetPlatformVersion>10.0.19041.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.16299.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
@@ -144,10 +144,10 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Resizetizer.NT">
-      <Version>0.1.0-preview8</Version>
+      <Version>0.2.0</Version>
     </PackageReference>
     <!-- #BP you've to install Resizetizer.NT -->
-    <PackageReference Include="Xamarin.Forms" Version="4.5.0.396" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\XFImageBestPractices\XFImageBestPractices.csproj">
