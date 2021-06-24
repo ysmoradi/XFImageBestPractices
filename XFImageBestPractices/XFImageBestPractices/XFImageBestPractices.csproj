@@ -4,6 +4,7 @@
 		<TargetFramework>netstandard2.0</TargetFramework>
 		<ProduceReferenceAssembly>true</ProduceReferenceAssembly>
 		<ResizetizerIncludeSelfProject>True</ResizetizerIncludeSelfProject>
+		<!-- #BP ResizetizerIncludeSelfProject is required to make Resizetizer work -->
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)'=='Debug'">
