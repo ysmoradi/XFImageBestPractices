@@ -21,6 +21,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<!--<SharedImage Include="Images\your_image_name.svg_or_png" BaseSize="width,heigth" />-->
 		<SharedImage Include="Images\sample.svg" BaseSize="427,392" />
 		<!-- #BP you've to define your images here. -->
 		<SharedImage Include="Images\loginbg.png" BaseSize="123,105" />

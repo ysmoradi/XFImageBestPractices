@@ -9,17 +9,17 @@
 
     <StackLayout Spacing="5">
 
-        <Image
-            HeightRequest="123"
-            Source="loginbg.png"
-            WidthRequest="105" />
-
-        <!--  #BP Do not use Images/logingbg.png  -->
+        <!--  #BP Do not use Images/sample.svg. Use sample.png instead  -->
 
         <Image
             HeightRequest="427"
             Source="sample.png"
             WidthRequest="329" />
+
+        <Image
+            HeightRequest="123"
+            Source="loginbg.png"
+            WidthRequest="105" />
 
         <Image
             HeightRequest="100"
